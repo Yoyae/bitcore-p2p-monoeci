@@ -56,7 +56,7 @@
     "url": "https://github.com/monacocoin-net/bitcore-p2p-monacocoin.git"
   },
   "dependencies": {
-    "bitcore-lib-monacocoin": "^0.14.3",
+    "bitcore-lib-monacocoin": "^0.15.1",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
