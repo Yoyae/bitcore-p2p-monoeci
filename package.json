@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-p2p-monacocoin",
+  "name": "bitcore-p2p-monoeci",
   "version": "1.1.5",
-  "description": "Interface to the monacocoin P2P network for bitcore-monacocoin",
+  "description": "Interface to the monoeci P2P network for bitcore-monoeci",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -53,16 +53,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/monacocoin-net/bitcore-p2p-monacocoin.git"
+    "url": "https://github.com/yoyae/bitcore-p2p-monoeci.git"
   },
   "dependencies": {
-    "bitcore-lib-monacocoin": "^0.15.1",
+    "bitcore-lib-monoeci": "^0.15.2",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build-monacocoin": "=0.8.3",
+    "bitcore-build-monoeci": "^0.8.0",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

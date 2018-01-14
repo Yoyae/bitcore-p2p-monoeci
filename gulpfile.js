@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-monacocoin');
+var bitcoreTasks = require('bitcore-build-monoeci');
 
 bitcoreTasks('p2p', {skipBrowser: true});
 

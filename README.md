@@ -1,23 +1,23 @@
-Bitcore P2P-monacocoin
+Bitcore P2P-monoeci
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p-monacocoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p-monacocoin)
-[![Build Status](https://img.shields.io/travis/monacocoinpay/bitcore-p2p-monacocoin.svg?branch=master&style=flat-square)](https://travis-ci.org/monacocoinpay/bitcore-p2p-monacocoin)
-[![Coverage Status](https://img.shields.io/coveralls/monacocoinpay/bitcore-p2p-monacocoin.svg?style=flat-square)](https://coveralls.io/r/monacocoinpay/bitcore-p2p-monacocoin?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p-monoeci.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p-monoeci)
+[![Build Status](https://img.shields.io/travis/yoyae/bitcore-p2p-monoeci.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyae/bitcore-p2p-monoeci)
+[![Coverage Status](https://img.shields.io/coveralls/yoyae/bitcore-p2p-monoeci.svg?style=flat-square)](https://coveralls.io/r/yoyae/bitcore-p2p-monoeci?branch=master)
 
-`bitcore-p2p-monacocoin` adds monacocoin protocol support for Bitcore-monacocoin.
+`bitcore-p2p-monoeci` adds monoeci protocol support for Bitcore-monoeci.
 
-See [the main bitcore-monacocoin repo](https://github.com/monacocoinpay/bitcore-monacocoin) for more information.
+See [the main bitcore-monoeci repo](https://github.com/yoyae/bitcore-monoeci) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p-monacocoin
+npm install bitcore-p2p-monoeci
 ```
-In order to connect to the monacocoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the monoeci network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('bitcore-p2p-monacocoin').Peer;
+var Peer = require('bitcore-p2p-monoeci').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -47,7 +47,7 @@ Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usa
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/monacocoinpay/bitcore-monacocoin/blob/master/CONTRIBUTING.md) on the main bitcore-monacocoin repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/yoyae/bitcore-monoeci/blob/master/CONTRIBUTING.md) on the main bitcore-monoeci repo for information about how to contribute.
 
 ## License
 
