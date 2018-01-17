@@ -11,7 +11,7 @@
     "build": "gulp"
   },
   "contributors": [
-  {
+    {
       "name": "Sebastien Icard",
       "email": "monacocoin@gmail.com"
     },
