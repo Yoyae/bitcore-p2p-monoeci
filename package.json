@@ -1,6 +1,6 @@
 {
   "name": "bitcore-p2p-monoeci",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Interface to the monoeci P2P network for bitcore-monoeci",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -45,6 +45,10 @@
     },
     {
       "name": "Elichai Turkel"
+    },
+    {
+      "name": "Francois Gineste",
+      "email": "gingin.fr@gmail.com"
     }
   ],
   "keywords": [
@@ -56,7 +60,7 @@
     "url": "https://github.com/yoyae/bitcore-p2p-monoeci.git"
   },
   "dependencies": {
-    "bitcore-lib-monoeci": "^0.15.2",
+    "bitcore-lib-monoeci": ">0.15.2",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
